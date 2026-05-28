@@ -1,0 +1,128 @@
+.
+./00_data
+./00_data/framework_mapping.csv
+./00_data/labels.csv
+./00_data/processed
+./00_data/processed/001.txt
+./00_data/processed/002.txt
+./00_data/processed/003.txt
+./00_data/processed/004.txt
+./00_data/processed/005.txt
+./00_data/processed/006.txt
+./00_data/processed/007.txt
+./00_data/processed/008.txt
+./00_data/processed/009.txt
+./00_data/processed/010.txt
+./00_data/processed/011.txt
+./00_data/processed/012.txt
+./00_data/processed/013.txt
+./00_data/processed/014.txt
+./00_data/processed/015.txt
+./00_data/processed/016.txt
+./00_data/processed/017.txt
+./00_data/processed/018.txt
+./00_data/processed/019.txt
+./00_data/processed/020.txt
+./00_data/processed/021.txt
+./00_data/processed/022.txt
+./00_data/processed/023.txt
+./00_data/processed/024.txt
+./00_data/processed/025.txt
+./00_data/processed/026.txt
+./00_data/processed/027.txt
+./00_data/processed/028.txt
+./00_data/processed/029.txt
+./00_data/processed/030.txt
+./00_data/raw
+./00_data/raw/ANSSI views on the Post-Quantum Cryptography transition.pdf
+./00_data/raw/ASC-X9F-IR-01-2025-Post-Quantum-Cryptography-Financial-Readiness-Needs-Assessment-Informative-Report-Final-1.pdf
+./00_data/raw/CSA_CNSA_2.0_ALGORITHMS.pdf
+./00_data/raw/CSI_CNSA_2.0_FAQ_.pdf
+./00_data/raw/draft-ietf-pquip-pqc-engineers-14 - Post-Quantum Cryptography for Engineers.pdf
+./00_data/raw/ENISA Report - Post-Quantum Cryptography Current state and quantum mitigation-V2.pdf
+./00_data/raw/EN_Position.pdf
+./00_data/raw/IBM_Quantum_Safe_Roadmap.pdf
+./00_data/raw/itsm.40.001-migration-post-quantum-cryptography-government-canada-e.pdf
+./00_data/raw/MIGRATION TO POST-QUANTUM CRYPTOGRAPHY.pdf
+./00_data/raw/pdf-quantum-threat-timeline-report-2025.pdf
+./00_data/raw/Post-Quantum Cryptography (PQC) Network Instrument: Measuring PQC Adoption Rates and Identifying Migration Pathways.pdf
+./00_data/raw/POST-QUANTUM CRYPTOGRAPHY READINESS IN U.S. COMMUNITY BANKS AND FINANCIAL SMES: A CYBERSECURITY RISK ASSESSMENT FRAMEWORK.pdf
+./00_data/raw/PQ.1-Post-Quantum-Telco-Network-Impact-Assessment-Whitepaper-Version1.0.pdf
+./00_data/raw/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf
+./00_data/raw/Practical Preparations for the Post-Quantum World.pdf
+./00_data/raw/Preparing for Quantum-Safe Cryptography.pdf
+./00_data/raw/Product Categories for Technologies That Use Post-Quantum Cryptography Standards _ CISA.pdf
+./00_data/raw/Quantum computing and the financial system- opportunities and risks.pdf
+./00_data/raw/Quantum Computing Cybersecurity Preparedness Act.pdf
+./00_data/raw/QUANTUM COMPUTING IN FINANCE: A STRATEGIC ROADMAP FOR INVESTORS AND BANKS.pdf
+./00_data/raw/Quantum Readiness in Cryptography: A Maturity-Based Framework for Post- Quantum Transition.pdf
+./00_data/raw/QUANTUM READINESS INDEX.pdf
+./00_data/raw/Quantum Readiness: Unlocking the Quantum Advantage for Australian Industries.pdf
+./00_data/raw/quantum-safe-cryptography.pdf
+./00_data/raw/QUANTUM-SAFE MIGRATION HANDBOOK.pdf
+./00_data/raw/tr_103619v010101p.pdf
+./00_data/raw/Transitioning organizations to post-quantum cryptography.pdf
+./00_data/raw/WEF_Quantum_Readiness_Toolkit_2023.pdf
+./00_data/raw/WEF_Transitioning to_a_Quantum_Secure_Economy_2022.pdf
+./01_preprocess
+./01_preprocess/preprocess.py
+./02_freq-analysis
+./02_freq-analysis/analysis.py
+./02_freq-analysis/dimension_weights.csv
+./02_freq-analysis/final_results.csv
+./02_freq-analysis/final_results_normalised.csv
+./02_freq-analysis/frequency.py
+./02_freq-analysis/keyword_map.py
+./02_freq-analysis/results
+./02_freq-analysis/results/001_results.txt
+./02_freq-analysis/results/002_results.txt
+./02_freq-analysis/results/003_results.txt
+./02_freq-analysis/results/004_results.txt
+./02_freq-analysis/results/005_results.txt
+./02_freq-analysis/results/006_results.txt
+./02_freq-analysis/results/007_results.txt
+./02_freq-analysis/results/008_results.txt
+./02_freq-analysis/results/009_results.txt
+./02_freq-analysis/results/010_results.txt
+./02_freq-analysis/results/011_results.txt
+./02_freq-analysis/results/012_results.txt
+./02_freq-analysis/results/013_results.txt
+./02_freq-analysis/results/014_results.txt
+./02_freq-analysis/results/015_results.txt
+./02_freq-analysis/results/016_results.txt
+./02_freq-analysis/results/017_results.txt
+./02_freq-analysis/results/018_results.txt
+./02_freq-analysis/results/019_results.txt
+./02_freq-analysis/results/020_results.txt
+./02_freq-analysis/results/021_results.txt
+./02_freq-analysis/results/022_results.txt
+./02_freq-analysis/results/023_results.txt
+./02_freq-analysis/results/024_results.txt
+./02_freq-analysis/results/025_results.txt
+./02_freq-analysis/results/026_results.txt
+./02_freq-analysis/results/027_results.txt
+./02_freq-analysis/results/028_results.txt
+./02_freq-analysis/results/029_results.txt
+./02_freq-analysis/results/030_results.txt
+./02_freq-analysis/run_pipeline.py
+./03_ml-model
+./03_ml-model/calibrate.py
+./03_ml-model/calibrate_svr.py
+./03_ml-model/composite_score_calculator.py
+./03_ml-model/main.py
+./03_ml-model/results
+./03_ml-model/results/calibration_params.json
+./03_ml-model/results/calibration_summary.txt
+./03_ml-model/results/nlp_detailed_features.csv
+./03_ml-model/results/nlp_raw_scores.csv
+./03_ml-model/results/nlp_scores.csv
+./03_ml-model/run_pipeline.py
+./03_ml-model/svr_config.json
+./03_ml-model/svr_rf_config.json
+./04_llm-pipeline
+./04_llm-pipeline/llm_3090_score.py
+./04_llm-pipeline/outputs
+./04_llm-pipeline/run_stage1.py
+./04_llm-pipeline/run_stage2.py
+./filetree.txt
+./requirements.txt

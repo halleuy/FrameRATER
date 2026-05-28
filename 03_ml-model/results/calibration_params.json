@@ -1,0 +1,22 @@
+{
+  "crypto_assets": {
+    "slope": 2.108094106890442,
+    "intercept": 1.8071304982280672
+  },
+  "crypto_agility": {
+    "slope": 1.2458365979256758,
+    "intercept": 2.352409047437705
+  },
+  "migration_planning": {
+    "slope": 1.0565621161855485,
+    "intercept": 2.477576602028712
+  },
+  "risk_management": {
+    "slope": 1.290497667659804,
+    "intercept": 2.5957698040483335
+  },
+  "standards_compliance": {
+    "slope": 1.8885097879742638,
+    "intercept": 2.7142585240020507
+  }
+}
